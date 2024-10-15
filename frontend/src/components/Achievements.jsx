@@ -7,7 +7,7 @@ const Achievements = () => {
       <h1 className="text-5xl font-bold text-center underline text-black">Glimpses...</h1>
       <div className="photo_container">
         <div className="photo_item">
-          <img src=".\src\assets\6.jpg" />
+          <img src="6.jpg" />
           <p>
             <span className="font-bold">4th Prize, Ideathon2k24</span>
             <br />
@@ -16,7 +16,7 @@ const Achievements = () => {
         </div>
 
         <div className="photo_item">
-          <img src=".\src\assets\1.jpg" />
+          <img src="1.jpg" />
           <p>
             <span className="font-bold">3rd Prize, CU ProjectExpo-2k24</span>
             <br />
@@ -25,7 +25,7 @@ const Achievements = () => {
         </div>
 
         <div className="photo_item">
-          <img src=".\src\assets\5.jpg" />
+          <img src="5.jpg" />
           <p>
             <span className="font-bold">3rd Prize, CU ProjectExpo-2k24</span>
             <br />
@@ -34,7 +34,7 @@ const Achievements = () => {
         </div>
 
         <div className="photo_item">
-          <img src=".\src\assets\4.jpg" />
+          <img src="4.jpg" />
           <p>
             <span className="font-bold">Felicitation by AIML Department for securing 5th position at Hackfest</span>
             <br />
@@ -43,7 +43,7 @@ const Achievements = () => {
         </div>
 
         <div className="photo_item">
-          <img src=".\src\assets\2.jpg" />
+          <img src="2.jpg" />
           <p>
             <span className="font-bold">5th Prize, Hackfest</span>
             <br />
@@ -52,7 +52,7 @@ const Achievements = () => {
         </div>
 
         <div className="photo_item">
-          <img src=".\src\assets\3.jpg" />
+          <img src="3.jpg" />
           <p>
             <span className="font-bold">Organized workshop on AIML</span>
             <br />
