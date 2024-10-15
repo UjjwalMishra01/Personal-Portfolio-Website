@@ -1,0 +1,32 @@
+/* Gallery.css */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+    overflow-y: auto; /* Allow vertical scrolling */
+    height: 80vh; /* Adjust height as needed */
+    padding: 10px; /* Add some padding */
+  }
+  
+  .gallery-item {
+    flex: 1 1 200px; /* Allow items to grow and shrink, with a base size */
+    margin: 10px; /* Space between items */
+    display: flex;
+    flex-direction: column; /* Stack image and caption vertically */
+    align-items: center; /* Center items */
+  }
+  
+  .gallery-image {
+    width: 100%; /* Ensure the image takes full width of the item */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Max width for each image */
+    border-radius: 8px; /* Optional: add border radius for aesthetics */
+  }
+  
+  .gallery-caption {
+    text-align: center; /* Center the caption text */
+    margin-top: 5px; /* Space between image and caption */
+    font-weight: bold; /* Make the caption text bold */
+  }
+  

@@ -1,0 +1,28 @@
+/* Achievements.css */
+
+.main_container {
+    padding: 20px;
+    flex-grow: inherit;
+  }
+  
+  .photo_container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Optional: for better scrolling experience */
+    padding: 10px;
+    gap: 10px; /* Space between items */
+  }
+  
+  .photo_item {
+    flex: 0 0 auto; /* Prevent items from growing/shrinking */
+    width: 200px; /* Set a fixed width for the items */
+    scroll-snap-align: start; /* Optional: snap alignment */
+    text-align: center; /* Center captions */
+  }
+  
+  .photo_item img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round corners */
+  }
+  
