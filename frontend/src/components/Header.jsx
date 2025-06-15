@@ -15,8 +15,8 @@ const Header = () => {
 
   const [actionButton, setActionButton] = useState({
     title: "Download CV",
-    href: "/Resume.pdf", // Path to the resume file
-    download: "Resume.pdf" // Name of the file to be downloaded
+    href: "/Ujjwal_Mishra_SDE_Resume.pdf", // Path to the resume file
+    download: "Ujjwal_Mishra_SDE_Resume.pdf" // Name of the file to be downloaded
   });
 
   return (
